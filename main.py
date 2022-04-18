@@ -23,7 +23,7 @@ before = []
 after = []
 for col in allCols:
   
-        with st.beta_expander(label=col):
+        with st.expander(label=col):
                 
                 st.subheader("BEFORE")
                 st.text(beforeWorkout[col].mean())
